@@ -48,7 +48,7 @@ DB의 상태를 변화 시키기 위해 SELECT, INSERT, DELETE, UPDATE가 사용
 - 완료 (commited)
     - 트랜잭션이 성공적을 종료되어 커밋 연산을 실행한 후의 상태
 
-![Transaction State]()
+![Transaction State](http://wiki.hash.kr/images/thumb/a/a5/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%9D%98_%EC%83%81%ED%83%9C.png/800px-%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98%EC%9D%98_%EC%83%81%ED%83%9C.png)
 
 ## 트랜잭션의 락
 트랜잭션 처리의 순차성을 보장하기 위한 방법이다.<br>

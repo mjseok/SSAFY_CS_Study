@@ -56,21 +56,21 @@
 
        
         
-        - 위의 구조에서 Album 클래스를 저장한다고 가정해봅시다.
+     - 위의 구조에서 Album 클래스를 저장한다고 가정해봅시다.
         
         ```java
         // Album 객체저장
         jpa.persist(album);
         ```
         
-        - JPA는 위의 코드를 다음과 같은 쿼리로 변환해서 실행합니다.
+     - JPA는 위의 코드를 다음과 같은 쿼리로 변환해서 실행합니다.
         
         ```java
         INSERT INTO ITEM (ID, NAME, PRICE) .....
         INSERT INTO ALBUM (ARTIST) .....
         ```
         
-        - 조회할 때는 두 테이블을 엮어서 가져오게 됩니다.
+     - 조회할 때는 두 테이블을 엮어서 가져오게 됩니다.
         
         ```java
         // JAVA 코드

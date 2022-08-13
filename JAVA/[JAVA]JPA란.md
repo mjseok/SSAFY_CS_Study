@@ -8,7 +8,7 @@
 
 ## ORM(Object-Relational Mapping)
 
-[ORM.webp](/[Java] JPA란//ORM.webp)
+[ORM.webp](/[Java] JPA란/ORM.webp)
 
 - ORM은 프로그래밍 언어의 객체와 관계형 데이터베이스의 데이터를 자동으로 매핑(연결)해주는 도구입니다.
 - ORM은 객체와 데이터베이스의 관계를 매핑해주는 도구입니다.

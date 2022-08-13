@@ -7,8 +7,9 @@
 먼저 ORM에 대해 알아보겠습니다.
 
 ## ORM(Object-Relational Mapping)
+![orm](https://user-images.githubusercontent.com/48662662/184476116-8807a775-0196-4114-9442-f1b8b8e243b9.PNG)
 
-[ORM.webp](/[Java] JPA란/ORM.webp)
+
 
 - ORM은 프로그래밍 언어의 객체와 관계형 데이터베이스의 데이터를 자동으로 매핑(연결)해주는 도구입니다.
 - ORM은 객체와 데이터베이스의 관계를 매핑해주는 도구입니다.
@@ -36,7 +37,8 @@
 - 자바 어플리케이션에서 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스입니다.
 - 인터페이스이기 때문에 Hibernate, OpenJPA 등이 JPA를 구현합니다.
 
-![다운로드.png](%5BJava%5D%20JPA%E1%84%85%E1%85%A1%E1%86%AB%20d5801027186d4c70a2b6579be87dd11f/%25EB%258B%25A4%25EC%259A%25B4%25EB%25A1%259C%25EB%2593%259C.png)
+![다운로드](https://user-images.githubusercontent.com/48662662/184476131-e74b01a4-203e-4009-af15-0ad5a224909e.png)
+
 
 ### 왜 JPA를 사용해야 할까?
 
@@ -50,8 +52,9 @@
 - 패러다임의  불일치를 해결합니다.
     - e.g.) JAVA에서는 **부모 클래스와 자식 클래스의 관계 (상속관계)**가 존재하는데 데이터베이스에서는 이러한 객체의 상속관계를 지원하지 않습니다. 이런 상속관계를 JPA는 아래와 같은 방식으로 해결하였습니다.
     - 
-        
-        ![다운로드 (1).png](%5BJava%5D%20JPA%E1%84%85%E1%85%A1%E1%86%AB%20d5801027186d4c70a2b6579be87dd11f/%25EB%258B%25A4%25EC%259A%25B4%25EB%25A1%259C%25EB%2593%259C_(1).png)
+        ![다운로드 (1)](https://user-images.githubusercontent.com/48662662/184476137-2c2cf6e7-d4f0-452f-aa03-bacf33b62a2c.png)
+
+       
         
         - 위의 구조에서 Album 클래스를 저장한다고 가정해봅시다.
         
@@ -83,7 +86,8 @@
     
     - 객체지향에는 **연관관계**도 있습니다. 이것은 Class에서 또 다른 Class Type을 필드 변수로 가지고 있는 것을 말합니다. 객체관계와 이를 테이블 구조로 나타낸 아래 그림을 보겠습니다.
         
-        ![다운로드 (5).png](%5BJava%5D%20JPA%E1%84%85%E1%85%A1%E1%86%AB%20d5801027186d4c70a2b6579be87dd11f/%25EB%258B%25A4%25EC%259A%25B4%25EB%25A1%259C%25EB%2593%259C_(5).png)
+![다운로드 (5)](https://user-images.githubusercontent.com/48662662/184476160-544ac036-c31b-4911-967f-0145757ce794.png)
+
         
         - Member 클래스가 Team 타입의 team 필드 변수를 가지고 있는 형태인데 코드로 나타내면 아래와 같습니다.
         
@@ -140,11 +144,13 @@
 
 - 저장
 
-![다운로드 (2).png](%5BJava%5D%20JPA%E1%84%85%E1%85%A1%E1%86%AB%20d5801027186d4c70a2b6579be87dd11f/%25EB%258B%25A4%25EC%259A%25B4%25EB%25A1%259C%25EB%2593%259C_(2).png)
+![다운로드 (2)](https://user-images.githubusercontent.com/48662662/184476067-49b36737-c100-4abb-b8cb-e026dad5b00d.png)
 
 - 조회
 
-![다운로드 (3).png](%5BJava%5D%20JPA%E1%84%85%E1%85%A1%E1%86%AB%20d5801027186d4c70a2b6579be87dd11f/%25EB%258B%25A4%25EC%259A%25B4%25EB%25A1%259C%25EB%2593%259C_(3).png)
+![다운로드 (3)](https://user-images.githubusercontent.com/48662662/184476081-1b54e709-7ddd-4d5f-a50a-f70af1621960.png)
+
+
 
 - 참고로 JPA는 수정 메소드를 제공하지 않습니다.
     - 수정이 필요할 때는 JPA가 매핑된 객체(테이블 데이터)를 조회해서 값을 변경 후 커밋하면 DB서버에 UPDATE문을 전송하여 UPDATE를 실행합니다.

@@ -51,7 +51,7 @@
     
 - 패러다임의  불일치를 해결합니다.
     - e.g.) JAVA에서는 **부모 클래스와 자식 클래스의 관계 (상속관계)**가 존재하는데 데이터베이스에서는 이러한 객체의 상속관계를 지원하지 않습니다. 이런 상속관계를 JPA는 아래와 같은 방식으로 해결하였습니다.
-    
+    - 
         ![다운로드 (1)](https://user-images.githubusercontent.com/48662662/184476137-2c2cf6e7-d4f0-452f-aa03-bacf33b62a2c.png)
 
        
@@ -91,7 +91,7 @@
         
         - Member 클래스가 Team 타입의 team 필드 변수를 가지고 있는 형태인데 코드로 나타내면 아래와 같습니다.
         
-        ```java
+        ```
         class Member {
          String id;
          Team team;
@@ -106,7 +106,7 @@
         
         - 여기서  Team 객체를 참조하는 필드를 가지고 있는 Member 객체는 어떻게 저장할까요? 위에서 봤던 상속구조와 똑같습니다.
         
-        ```java
+        ```
         Member member = new Member();
         member.setId("100");
         member.setUsername("dbjh");
@@ -120,14 +120,14 @@
         
         - Memver 객체의 team 필드에 Team 객체를 set하고 Member 객체를 DB에 저장하게 되면 JPA는 아래와 같은 코드를 데이터베이스에서 실행합니다.
        
-        ```java
+        ```
         INSERT INTO MEMBER (ID, TEAM_ID, USERNAME) ....
         INSERT INTO TEAM (ID, NAME) ....
         ```
         
         - 이렇게 저장 후 Member 객체만 조회하면, Team 객체 정보도 가져와서 Member 객체의 team 필드에 주입해주기 때문에 아래와 같이 사용할 수 있습니다.
         
-        ```java
+        ```
         // JAVA 코드
         Member member = jpa.find(Member.class, memberId);
         Team team = member.getTeam();

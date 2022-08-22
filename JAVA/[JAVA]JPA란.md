@@ -86,27 +86,31 @@
     
     - 객체지향에는 **연관관계**도 있습니다. 이것은 Class에서 또 다른 Class Type을 필드 변수로 가지고 있는 것을 말합니다. 객체관계와 이를 테이블 구조로 나타낸 아래 그림을 보겠습니다.
         
-![다운로드 (5)](https://user-images.githubusercontent.com/48662662/184476160-544ac036-c31b-4911-967f-0145757ce794.png)
+    ![다운로드 (5)](https://user-images.githubusercontent.com/48662662/184476160-544ac036-c31b-4911-967f-0145757ce794.png)
 
+    - Member 클래스가 Team 타입의 team 필드 변수를 가지고 있는 형태인데 코드로 나타내면 아래와 같습니다.
         
-        - Member 클래스가 Team 타입의 team 필드 변수를 가지고 있는 형태인데 코드로 나타내면 아래와 같습니다.
-        
-        ```java
+        <pre>
+        <code>
         class Member {
          String id;
          Team team;
          String username;
         }
-        
+
         class Team {
          Long id;
          String name;
         }
-        ```
+        </code>
+        </pre>
+       
+       
+   - 여기서  Team 객체를 참조하는 필드를 가지고 있는 Member 객체는 어떻게 저장할까요? 위에서 봤던 상속구조와 똑같습니다.
         
-        - 여기서  Team 객체를 참조하는 필드를 가지고 있는 Member 객체는 어떻게 저장할까요? 위에서 봤던 상속구조와 똑같습니다.
         
-        ```java
+        <pre>
+        <code>
         Member member = new Member();
         member.setId("100");
         member.setUsername("dbjh");
@@ -116,18 +120,26 @@
         
         member.setTeam(team);
         jpa.persist(member);
-        ```
-        
-        - Memver 객체의 team 필드에 Team 객체를 set하고 Member 객체를 DB에 저장하게 되면 JPA는 아래와 같은 코드를 데이터베이스에서 실행합니다.
+        </code>
+        </pre>
        
-        ```java
+       
+   - Member 객체의 team 필드에 Team 객체를 set하고 Member 객체를 DB에 저장하게 되면 JPA는 아래와 같은 코드를 데이터베이스에서 실행합니다.
+       
+       
+        <pre>
+        <code>
         INSERT INTO MEMBER (ID, TEAM_ID, USERNAME) ....
         INSERT INTO TEAM (ID, NAME) ....
-        ```
+        </code>
+        </pre>
         
-        - 이렇게 저장 후 Member 객체만 조회하면, Team 객체 정보도 가져와서 Member 객체의 team 필드에 주입해주기 때문에 아래와 같이 사용할 수 있습니다.
+       
+   - 이렇게 저장 후 Member 객체만 조회하면, Team 객체 정보도 가져와서 Member 객체의 team 필드에 주입해주기 때문에 아래와 같이 사용할 수 있습니다.
         
-        ```java
+        
+        <pre>
+        <code>
         // JAVA 코드
         Member member = jpa.find(Member.class, memberId);
         Team team = member.getTeam();
@@ -136,7 +148,8 @@
         SELECT M.*, T.*
          FROM MEMBER M
          JOIN TEAM T ON M.TEAM_ID = T.TEAM_ID
-        ```
+        </code>
+        </pre>
         
     
 

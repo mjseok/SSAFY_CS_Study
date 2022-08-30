@@ -10,6 +10,8 @@
 
 [DB 설계 시 정규화를 하는 이유](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/CS_STUDY_WEEK1_1.md)
 [Shared / Exclusive Lock의 차이와 Lock으로 인한 문제](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/CS_STUDY_WEEK1_2.md)
+[DB 커넥션 풀 vs 실시간 통신](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Database/DB%20Connection%20Pool)  
+
 ## Design Pattern
 
 [MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
@@ -21,6 +23,7 @@
 ## Network
 
 [GET,POST차이](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/1-1.%20GET%2C%20POST%20%EC%B0%A8%EC%9D%B4.md)
+[URI 입력 시 일어나는 일](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/URI%20%EC%9E%85%EB%A0%A5%20%EC%8B%9C%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC.md)  
 
 ## OS
 

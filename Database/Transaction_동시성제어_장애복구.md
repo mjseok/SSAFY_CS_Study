@@ -1,6 +1,9 @@
 # Transaction
 ## 1.개요
-transaction(T) : 여러 쿼리들의 모임.(ACIDS)
+transaction(T) : 여러 쿼리들의 모임. 트랜잭션 내부에 데이터 X를읽어라/데이터 X를 써라 같은 기본동작은 action이라 불림
+
+T의 특징 : ACIDS
+
 1)원자성 : T속에 한 쿼리가 취소되면(undo, 시스템장애) 모든 쿼리가 취소돼야함
 
 2)일관성 : 모든 T들에 일관적인 DB를 제공해야함. 

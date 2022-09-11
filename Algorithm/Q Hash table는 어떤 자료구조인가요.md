@@ -30,7 +30,7 @@ key: 출석번호, value: 이름
 (7, 남영욱)
 ```
 
-![1.PNG](Q%20Hash%20table%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%AD%2065cd6b58c9244857b31f266e6ecbdeae/1.png)
+![1](https://user-images.githubusercontent.com/48662662/189540914-79229cc1-afa9-4559-9f5d-0178e325de87.PNG)
 
 - table은 array로 구현할 수 있습니다.
 - 직접주소화 테이블이라고도 부릅니다.
@@ -47,7 +47,7 @@ key: 학번, value: 이름
 (2022401, 남영욱)
 ```
 
-![2.PNG](Q%20Hash%20table%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%AD%2065cd6b58c9244857b31f266e6ecbdeae/2.png)
+![2](https://user-images.githubusercontent.com/48662662/189540931-2cacaf33-dabe-4c67-a61f-7460e9cad77b.PNG)
 
 - key가 다양한 자료형을 담을 수 없게 됨
 
@@ -59,7 +59,7 @@ key: ID, value: 이름
 (nam1234, 남영욱)
 ```
 
-![3.PNG](Q%20Hash%20table%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%AD%2065cd6b58c9244857b31f266e6ecbdeae/3.png)
+![3](https://user-images.githubusercontent.com/48662662/189540948-3e1a813b-58f3-413f-b975-f18884d73cfc.PNG)
 
 ### Hash table
 
@@ -67,15 +67,15 @@ key: ID, value: 이름
 
   한편, hash table을 구성하고 있는, (key, value) 데이터를 저장할 수 있는 각각의 공간을 slot 또는 bucket이라고 합니다.
 
-![4.PNG](Q%20Hash%20table%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%AD%2065cd6b58c9244857b31f266e6ecbdeae/4.png)
+![4](https://user-images.githubusercontent.com/48662662/189540956-0524e524-c2b9-41fd-a7f8-2e167ae1c9a7.PNG)
 
-![5.PNG](Q%20Hash%20table%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%AD%2065cd6b58c9244857b31f266e6ecbdeae/5.png)
+![5](https://user-images.githubusercontent.com/48662662/189540962-bcc2ff74-d910-44a3-8832-16b420444a58.PNG)
 
 ### Collision
 
 collision이란 서로 다른 key의 해시값이 똑같을 때를 말합니다. 즉, 중복되는 key는 없지만 해시값은 중복될 수 잇는데 이 때 collision이 발생했다고 합니다. 따라서 collision이 최대한 적게 나오도록 hash function을 잘 설계해야하고, 어쩔 수 없이 collision이 발생하는 경우 seperate chaining 또는 open addressing 등의 방법을 사용하여 해결합니다.
 
-![6.PNG](Q%20Hash%20table%E1%84%82%E1%85%B3%E1%86%AB%20%E1%84%8B%E1%85%A5%E1%84%84%E1%85%A5%E1%86%AB%20%E1%84%8C%E1%85%A1%E1%84%85%E1%85%AD%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%80%E1%85%A1%E1%84%8B%E1%85%AD%2065cd6b58c9244857b31f266e6ecbdeae/6.png)
+![6](https://user-images.githubusercontent.com/48662662/189540967-3c9a9194-fe82-43fd-8e4c-5e4e09d763ac.PNG)
 
 ### 시간복잡도와 공간효율
 

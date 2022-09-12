@@ -113,8 +113,8 @@ credentials 옵션에는
 1. omit :절대로 cookie들을 전송하거나 받지 않는다
 2. same-origin은 동일 출처라면 user credential(cookies, basic http auth등등)을 전송한다.
 3. include는 cross-origin호출이여도 언제나 user credential을 전송한다.  
-   예시
-4. fetchAPI
+예시
+fetchAPI
 
 ```js
 fetch("주소", {
@@ -122,7 +122,7 @@ fetch("주소", {
 });
 ```
 
-2. Axios통신
+Axios통신
 
 ```js
 axios.post(주소, 데이터, { withCredentials: true });

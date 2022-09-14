@@ -4,7 +4,7 @@
 
 ## Algorithm
 
-[Array와 LinkedList의 차이점](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Array%EC%99%80%20LinkedList%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)
+[Array와 LinkedList의 차이점](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Array%EC%99%80%20LinkedList%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
 [HashTable은 어떤 자료구조인가요?](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Q%20Hash%20table%EB%8A%94%20%EC%96%B4%EB%96%A4%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%B8%EA%B0%80%EC%9A%94.md)  
 
 ## Database
@@ -12,12 +12,12 @@
 [DB 설계 시 정규화를 하는 이유](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/CS_STUDY_WEEK1_1.md)    
 [Shared / Exclusive Lock의 차이와 Lock으로 인한 문제](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/CS_STUDY_WEEK1_2.md)    
 [DB 커넥션 풀 vs 실시간 통신](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Database/DB%20Connection%20Pool)    
-[https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/Index%EA%B0%9C%EC%9A%94_B%2Btree_Hash.md)  
+[Index : B+tree, Hash](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/Index%EA%B0%9C%EC%9A%94_B%2Btree_Hash.md)  
 [동시성제어_장애복구](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/Transaction_%EB%8F%99%EC%8B%9C%EC%84%B1%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%95%A0%EB%B3%B5%EA%B5%AC.md)  
 
 ## Design Pattern
 
-[MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)
+[MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  
 [Observer 패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)  
 
 ## Java

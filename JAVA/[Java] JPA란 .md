@@ -146,7 +146,6 @@ JPA에 대해 설명하세요. 그리고 JPA를 사용하면 좋은 점은 뭘�
 
 - 저장
 ![5](https://user-images.githubusercontent.com/48662662/191042710-90c4785b-0989-44fc-b0ef-ef8f1e9a24a9.png)
-![6](https://user-images.githubusercontent.com/48662662/191042719-afe10269-a5de-4713-9611-fa6a0bd45be7.png)
 
 
 - 조회

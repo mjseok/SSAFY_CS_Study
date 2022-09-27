@@ -6,6 +6,7 @@
 
 [Array와 LinkedList의 차이점](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Array%EC%99%80%20LinkedList%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
 [HashTable은 어떤 자료구조인가요?](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Q%20Hash%20table%EB%8A%94%20%EC%96%B4%EB%96%A4%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%B8%EA%B0%80%EC%9A%94.md)  
+[Hash table collision발생 시 해결방법](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Hash%20table%20collision%20%EB%B0%9C%EC%83%9D%20%EC%8B%9C%20%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95.md)  
 
 ## Database
 
@@ -14,15 +15,18 @@
 [DB 커넥션 풀 vs 실시간 통신](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Database/DB%20Connection%20Pool)    
 [Index : B+tree, Hash](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/Index%EA%B0%9C%EC%9A%94_B%2Btree_Hash.md)  
 [동시성제어_장애복구](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/Transaction_%EB%8F%99%EC%8B%9C%EC%84%B1%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%95%A0%EB%B3%B5%EA%B5%AC.md)  
+[DB Connection Pool](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Database/DB%20Connection%20Pool)  
 
 ## Design Pattern
 
 [MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  
 [Observer 패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)  
+[MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)  
 
 ## Java
 
 [JPA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJAVA%5DJPA%EB%9E%80.md)
+[JPA_추가](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJava%5D%20JPA%EB%9E%80%20.md)  
 
 ## Network
 
@@ -30,6 +34,8 @@
 [URI 입력 시 일어나는 일](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/URI%20%EC%9E%85%EB%A0%A5%20%EC%8B%9C%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC.md)  
 [DNS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/2.%20DNS.md)  
 [CORS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/3.%20CORS.md)  
+[RESTful이란](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/RESTful%EC%9D%B4%EB%9E%80.md)  
+[LoadBalancing](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Network/LoadBalancing)  
 
 ## OS
 
@@ -39,6 +45,8 @@
 [CPU스케줄링](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/2.%20CPU%EC%8A%A4%EC%BC%80%EC%A4%84%EB%A7%81.md)  
 [페이징vs세그멘테이션](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/2.%20Paging%20%26%20Segmentaion.md)  
 [동기vs비동기](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/%5BOS%5D%20%EB%8F%99%EA%B8%B0%EC%99%80%20%EB%B9%84%EB%8F%99%EA%B8%B0%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
+[Deadlock](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/3.%20Deadlock.md)  
+[Thread의 유형](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/4.%20Thread%EC%9D%98%20%EC%9C%A0%ED%98%95.md)  
 
 ## WEB
 [CORS란 무엇인가](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CORS%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)  

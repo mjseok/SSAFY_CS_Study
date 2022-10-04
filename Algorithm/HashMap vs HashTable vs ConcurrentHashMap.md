@@ -311,7 +311,8 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
 
 **ConcurrentHashMap 생성자**
 
-![107616159-d932af00-6c90-11eb-81b6-fb32864bdb81](C:\Users\USER\Desktop\107616159-d932af00-6c90-11eb-81b6-fb32864bdb81.png)
+![107616159-d932af00-6c90-11eb-81b6-fb32864bdb81](https://user-images.githubusercontent.com/48662662/193850172-585338a0-be5f-41ec-8796-a710340bcb00.png)
+
 
 - `conrrencyLevel`이 존재한다. 동시에 몇 개의 쓰레드를 작동하게 할 것인지 정한다. DEFAULT는 16이지만 위와 같이 직접 지정할 수도 있다.
 - 효과를 극대화하기 위해서는 상황에 따라 적절히 세그먼트를 나누는 것이 필요하다. 데이터를 너무 적은 수의 조각으로 나누면 경쟁을 줄이는 효과가 적을 것이고 너무 많은 수의 조각으로 나누면 이 세그먼트를 관리하는 비용이 커지기 때문이다.
@@ -324,15 +325,16 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
 
 1. 빈 해시 버킷에 노드를 삽입하는 경우, lock 을 사용하지 않고 [Compare and Swap](http://tutorials.jenkov.com/java-concurrency/compare-and-swap.html) 을 이용하여 새로운 노드를 해시 버킷에 삽입한다.(원자성 보장)
 
-![107613945-af778900-6c8c-11eb-8f1b-5b0f8bce4bcb](C:\Users\USER\Desktop\107613945-af778900-6c8c-11eb-8f1b-5b0f8bce4bcb.png)
+![107613945-af778900-6c8c-11eb-8f1b-5b0f8bce4bcb](https://user-images.githubusercontent.com/48662662/193850137-29e206cc-a129-4e0a-90e3-4c56626f41da.png)
+
 
 (1) 무한 루프. table 은 내부적으로 관리하는 가변 배열이다.
 (2) 새로운 노드를 삽입하기 위해, 해당 버킷 값을 가져와(tabAt 함수) 비어 있는지 확인한다.(== null)
 (3) 다시 Node 를 담고 있는 volatile 변수에 접근하여 Node 와 기대값(null) 을 비교하여(casTabAt 함수) 같으면 새로운 Node 를 생성해 넣고, 아니면 (1)번으로 돌아간다(재시도)
 
 
+![99A49F335EA3105801](https://user-images.githubusercontent.com/48662662/193849815-ba4de523-18a0-4a8a-bad9-5ab2bcf84099.png)
 
-![99A49F335EA3105801](C:\Users\USER\Desktop\99A49F335EA3105801.png)
 
 - [volatile](https://nesoy.github.io/articles/2018-06/Java-volatile) 변수에 2번 접근하는 동안 원자성(atomic)을 보장하기 위해 기대되는 값과 비교(Compare)하여 맞는 경우에 새로운 노드를 넣는다(Swap).
 
@@ -344,7 +346,7 @@ public class ConcurrentHashMap<K,V> extends AbstractMap<K,V>
 
    **서로 다른 스레드가 같은 해시 버킷에 접근할 때만 해당 블록이 잠기게 된다.**
 
-![99BDF1435EA33C8C07](C:\Users\USER\Desktop\99BDF1435EA33C8C07.png)
+![99BDF1435EA33C8C07](https://user-images.githubusercontent.com/48662662/193849695-f528b053-45b3-46cf-874d-74c6bfaf7337.png)
 
 - synchronized 안의 로직은 HashMap 과 비슷한 로직이다. 동일한 Key 이면 Node 를 새로운 노드로 바꾸고, 해시 충돌(hash collision) 인 경우에는 Separate Chaining 에 추가 하거나 TreeNode 에 추가한다. `TREEIFY_THRESHOLD` 값에 따라 체이닝을 트리로 바꾼다.
 

@@ -95,7 +95,7 @@ Java는 플랫폼에 종속적이지 않지만 JVM은 플랫폼에 종속적
 
 ---
 
-## Reference
+## References
 
 - https://steady-coding.tistory.com/305
 - https://coding-factory.tistory.com/827

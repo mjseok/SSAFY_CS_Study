@@ -38,10 +38,20 @@ a, b는 이름만 같을 뿐 다른 주소를 가지는 별개의 변수들이�
 Java에서의 메모리는 Stack 영역과 Heap 영역으로 나뉘어 진다.
 Stack의 경우에는 정적으로 할당된 메모리 영역이다.
 Stack에는 **Primitive 타입 (boolean, char, short, int, long, float, double) 의 데이터가 값과 같이 할당**된다.
+![image](https://user-images.githubusercontent.com/44194990/193827186-1153f554-00dc-4eff-aa73-77519cbf69c4.png)
+<br>
 또, Stack에는 Heap 영역에 생성된 **Object 타입의 데이터의 참조값이 할당**된다.
 Heap의 경우에는 동적으로 할당된 메모리 영역이다.
 Heap 영역에서는 **모든 Object 타입의 데이터가 할당**이 된다.
 Heap 영역의 Object를 가리키는 참조변수가 Stack에 할당이 된다.
+![image](https://user-images.githubusercontent.com/44194990/193827352-13b43bae-b70e-4266-af34-138bb9ad2268.png)
+<br>
+하지만 참조 타입중에 주의해야할 타입이 있는데 그건 바로 String(문자열) 타입이다.
+String 타입의 경우 문자열 리터럴(값)이 동일하다면 String 객체가 공유된다.
+![image](https://user-images.githubusercontent.com/44194990/193828463-19508617-1f4f-49c7-828f-e4e993d8e6a8.png)
+가령 위와 같이 a, b에 같은 값을 저장하고 비교 연산(==)을 수행하면 기본 타입에 의한 결과가 나오게 된다.
+하지만, **new 연산자로 새로운 String 객체를 생성해 저장을 한다면, 참조 타입에 의한 결과**가 나오게 된다.
+즉, String은 Heap 영역에 생성되는 Object 타입임에도 불구하고, new를 사용하지 않으면, Stack에 생성된 Primitive 타입처럼 사용할 수 있다.
 <br><br><br>
 
 ### 동일한 변수명, 다른 주소를 쓰고자 한다면?

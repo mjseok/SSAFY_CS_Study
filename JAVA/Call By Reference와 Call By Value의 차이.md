@@ -16,7 +16,7 @@ Call by Reference 는 참조(주소)를 직접 전달하기 때문에 Pass By Re
 
 ### Java의 메소드 매개변수 호출 방식은?
 Java로 개발을 해봤다면 메소드로 변수를 넘기고 거기서 값을 수정해본 경험이 있을 것이다.<br>
-그래서, Call by Reference 라고 오해할 수 있지만, Java 는 오직 Call by Value 로만 동작한다. <br>
+그래서, Call by Reference 라고 오해할 수 있지만, **Java는 오직 Call by Value 로만 동작**한다. <br>
 **(둘을 혼용하는 것도 아니고 Call by Value만을 사용!!!!)**<br>
 <br><br><br>
 

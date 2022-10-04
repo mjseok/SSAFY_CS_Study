@@ -94,6 +94,12 @@ Java는 플랫폼에 종속적이지 않지만 JVM은 플랫폼에 종속적
      - 자바 이외의 언어로 작성된 네이티브 코드를 실행할 때 사용하는 메모리 영역
 
 ---
+## Reference
+https://steady-coding.tistory.com/305
+https://coding-factory.tistory.com/827
+https://coding-factory.tistory.com/828
+
+---
 
 ## 실제 면접 질문
 

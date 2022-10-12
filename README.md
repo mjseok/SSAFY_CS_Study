@@ -7,6 +7,7 @@
 [Array와 LinkedList의 차이점](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Array%EC%99%80%20LinkedList%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
 [HashTable은 어떤 자료구조인가요?](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Q%20Hash%20table%EB%8A%94%20%EC%96%B4%EB%96%A4%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%9D%B8%EA%B0%80%EC%9A%94.md)  
 [Hash table collision발생 시 해결방법](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Hash%20table%20collision%20%EB%B0%9C%EC%83%9D%20%EC%8B%9C%20%ED%95%B4%EA%B2%B0%EB%B0%A9%EB%B2%95.md)  
+[HashMap vs HashTable vs ConcurrentHashMap](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/HashMap%20vs%20HashTable%20vs%20ConcurrentHashMap.md)  
 
 ## Database
 
@@ -19,7 +20,7 @@
 
 ## Design Pattern
 
-[MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  
+[MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  [MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)  
 [Observer 패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)  
 [MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)  
 
@@ -27,6 +28,7 @@
 
 [JPA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJAVA%5DJPA%EB%9E%80.md)
 [JPA_추가](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJava%5D%20JPA%EB%9E%80%20.md)  
+[call by reference vs call by value](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/Call%20By%20Reference%EC%99%80%20Call%20By%20Value%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
 
 ## Network
 
@@ -36,6 +38,9 @@
 [CORS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/3.%20CORS.md)  
 [RESTful이란](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/RESTful%EC%9D%B4%EB%9E%80.md)  
 [LoadBalancing](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Network/LoadBalancing)  
+[stateless vs stateful](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/stateless%20vs%20stateful.md)  
+[전송계층](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/%EC%A0%84%EC%86%A1%EA%B3%84%EC%B8%B5.md)  
+
 
 ## OS
 
@@ -47,6 +52,7 @@
 [동기vs비동기](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/%5BOS%5D%20%EB%8F%99%EA%B8%B0%EC%99%80%20%EB%B9%84%EB%8F%99%EA%B8%B0%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
 [Deadlock](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/3.%20Deadlock.md)  
 [Thread의 유형](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/4.%20Thread%EC%9D%98%20%EC%9C%A0%ED%98%95.md)  
+[커널모드,유저모드](https://github.com/mjseok/SSAFY_CS_Study/blob/main/OS/5.%20%EC%BB%A4%EB%84%90%EB%AA%A8%EB%93%9C%2C%20%EC%9C%A0%EC%A0%80%EB%AA%A8%EB%93%9C.md)  
 
 ## WEB
 [CORS란 무엇인가](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CORS%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)  

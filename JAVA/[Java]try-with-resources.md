@@ -1,20 +1,17 @@
-# [item9] try-finally보다는 try-with-resource를 사용하라
-
-
-
 > 자바 라이브러리에는 close 메서드를 호출해 직접 닫아줘야 하는 자원이 있다. 그 예로는 InputStream, OutputStream, java.sql.Connection 등이 있다. 
 
+<br>
 
 
 - 꼭 회수해야 하는 자원을 다룰 때는 try-finally 말고, **try-with-resources문**을 사용한다.
 
 - 코드가 더 간결해지고 놓치는 예외정보 없이 사용할 수 있다.
 
-  
+  <br>
 
 ---
 
-
+<br>
 
 **try-catch-finally문**
 
@@ -24,7 +21,7 @@
 
 4. finally 구문은 예외처리의 발생여부를 떠나 무조건 실행되도록 하는 구문이다.
 
-
+<br>
 
 ### try-finally 문을 사용할 경우
 
@@ -33,10 +30,14 @@ public class FirstException extends RuntimeException {
 }
 ```
 
+<br>
+
 ```java
 public class SecondException extends RuntimeException {
 }
 ```
+
+<br>
 
 ```java
 public class MyResource implements AutoCloseable {
@@ -53,6 +54,8 @@ public class MyResource implements AutoCloseable {
     }
 }
 ```
+
+<br>
 
 ```java
 public class AppRunner {
@@ -72,6 +75,7 @@ public class AppRunner {
 }
 ```
 
+<br>
 
 
 **실행결과**
@@ -88,7 +92,7 @@ item9.SecondException
 - 스택 추적 내역에 첫 번째 예외에 관한 정보는 남지 않게 된다.
 - 처음 발생한 예외를 확인할 수 없기 때문에 디버깅이 어렵다.
 
-
+<br>
 
 **자원이 둘 이상이면 try-finally 방식은 가독성이 떨어진다**
 
@@ -113,11 +117,11 @@ static void copy(String src, String dst) throws IOException {
 
 - 자원이 둘 이상이면 코드가 복잡해진다.
 
-  
+ <br> 
 
 ---
 
-
+<br>
 
 이러한 문제점들을 자바 7의 **try-with-resources**문을 사용하여 해결할 수 있다.
 
@@ -130,9 +134,9 @@ public interface AutoCloseable {
 }
 ```
 
-![auto](C:\Users\USER\Desktop\auto.PNG)
+![](https://velog.velcdn.com/images/rlooo/post/3928f373-a02b-4fed-87a3-87d4b2e1e78d/image.PNG)
 
-
+<br>
 
 ### try-with-resources 문을 사용할 경우
 
@@ -154,7 +158,7 @@ public class AppRunner2 {
 
 - 짧고 읽기 수월하다.
 
-  
+<br>  
 
 **실행결과**
 
@@ -173,7 +177,7 @@ Exception in thread "main" item9.FirstException
 
 - 버려지는 것이 아니라 스택 추적 내역에 ‘숨겨졌다(suppressed)’는 꼬리표를 달고 출력된다.
 
-
+<br>
 
 - 자바 7에서 Throwable에 추가된 getSuppressed 메서드를 이용하면 프로그램 코드에서 가져올 수도 있다.
 
@@ -185,6 +189,7 @@ Throwable[] getSuppressed()
 - addSuppressed() : suppressed된 예외를 추가
 - getSuppressed() : suppressed된 예외(배열)를 반환
 
+<br>
 
 
 **복수의 자원을 처리하는 try-with-resources문**
@@ -202,7 +207,7 @@ static void copy(String src, String dst) throws IOException {
     }
 ```
 
-
+<br>
 
 **try-with-resources와 catch문을 함께 쓸 수 있다**
 
@@ -220,11 +225,11 @@ static String firstLineOfFile(String path, String defaultVal) {
 
 - catch절을 함께 써서 try문을 중첩하지 않고 다수의 예외를 처리할 수 있다.
 
-  
+ <br> 
 
 ---
 
-
+<br>
 
 ### REFERENCE
 

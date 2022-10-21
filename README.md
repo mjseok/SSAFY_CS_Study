@@ -1,7 +1,7 @@
 # ✏SSAFY_CS_Study
 
 # 질문모음 
-
+#### 다들 Fighting!
 ## Algorithm
 
 [Array와 LinkedList의 차이점](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Algorithm/Array%EC%99%80%20LinkedList%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
@@ -66,3 +66,4 @@
 
 
 ### [WIKI 보러가기](https://github.com/mjseok/SSAFY_CS_Study/wiki)
+

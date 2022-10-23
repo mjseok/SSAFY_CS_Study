@@ -20,15 +20,18 @@
 
 ## Design Pattern
 
-[MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  [MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)  
+[MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  
+[MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)    
 [Observer 패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)  
-[MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)  
+
 
 ## Java
 
 [JPA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJAVA%5DJPA%EB%9E%80.md)
 [JPA_추가](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJava%5D%20JPA%EB%9E%80%20.md)  
 [call by reference vs call by value](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/Call%20By%20Reference%EC%99%80%20Call%20By%20Value%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
+[JVN의 동작방식](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D.md)  
+[객체지향 설계원칙](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9B%90%EC%B9%99.md)  
 
 ## Network
 
@@ -58,10 +61,10 @@
 [CORS란 무엇인가](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CORS%EB%9E%80%20%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80.md)  
 [http vs https](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/http%EC%99%80%20https%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
 [쿠키 vs 세션](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/%EC%BF%A0%ED%82%A4%EC%99%80%20%EC%84%B8%EC%85%98%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
+[WebServer vs WAS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/WebServer%20vs%20WAS.md)  
 
 ## COMMON
-
-[질문](commit 후에 링크달기)
+[애자일방법론](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Common/%EC%95%A0%EC%9E%90%EC%9D%BC%20%EB%B0%A9%EB%B2%95%EB%A1%A0.md)
 
 
 

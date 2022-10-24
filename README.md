@@ -30,7 +30,7 @@
 [JPA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJAVA%5DJPA%EB%9E%80.md)
 [JPA_추가](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJava%5D%20JPA%EB%9E%80%20.md)  
 [call by reference vs call by value](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/Call%20By%20Reference%EC%99%80%20Call%20By%20Value%EC%9D%98%20%EC%B0%A8%EC%9D%B4.md)  
-[JV의 동작방식](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D.md)  
+[JVM의 동작방식](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D.md)  
 [객체지향 설계원칙](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9B%90%EC%B9%99.md)  
 [try-with-resources](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJava%5Dtry-with-resources.md)  
 ## Network

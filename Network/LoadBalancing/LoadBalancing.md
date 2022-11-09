@@ -1,4 +1,4 @@
-bㅠbㅠㅠ# Load Balancing
+# Load Balancing
 
 ## 이해를 돕기 위한 스토리 텔링
 

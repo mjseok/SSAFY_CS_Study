@@ -17,6 +17,7 @@
 [Index : B+tree, Hash](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/Index%EA%B0%9C%EC%9A%94_B%2Btree_Hash.md)  
 [동시성제어_장애복구](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/Transaction_%EB%8F%99%EC%8B%9C%EC%84%B1%EC%A0%9C%EC%96%B4_%EC%9E%A5%EC%95%A0%EB%B3%B5%EA%B5%AC.md)  
 [DB Connection Pool](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Database/DB%20Connection%20Pool)  
+[정규화](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Database/%EC%A0%95%EA%B7%9C%ED%99%94.md)  
 
 ## Design Pattern
 
@@ -33,6 +34,8 @@
 [JVM의 동작방식](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D/JVM%EC%9D%98%20%EB%8F%99%EC%9E%91%20%EB%B0%A9%EC%8B%9D.md)  
 [객체지향 설계원칙](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9B%90%EC%B9%99.md)  
 [try-with-resources](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJava%5Dtry-with-resources.md)  
+[String vs StringBuffer, StringBuilder](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/String%2CStringBuffer%2CStringBuilder.md)  
+
 ## Network
 
 [GET,POST차이](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/1-1.%20GET%2C%20POST%20%EC%B0%A8%EC%9D%B4.md)  
@@ -62,6 +65,8 @@
 [http vs https](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/http%EC%99%80%20https%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
 [쿠키 vs 세션](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/%EC%BF%A0%ED%82%A4%EC%99%80%20%EC%84%B8%EC%85%98%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
 [WebServer vs WAS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/WebServer%20vs%20WAS.md)  
+[css애니매이션 vs JS애니매이션](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CSS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20vs%20JS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98.md)  
+
 
 ## COMMON
 [애자일방법론](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Common/%EC%95%A0%EC%9E%90%EC%9D%BC%20%EB%B0%A9%EB%B2%95%EB%A1%A0.md)

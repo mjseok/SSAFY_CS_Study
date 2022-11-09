@@ -35,6 +35,7 @@
 [객체지향 설계원칙](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%EA%B0%9D%EC%B2%B4%EC%A7%80%ED%96%A5%20%EC%84%A4%EA%B3%84%EC%9B%90%EC%B9%99.md)  
 [try-with-resources](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/%5BJava%5Dtry-with-resources.md)  
 [String vs StringBuffer, StringBuilder](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/String%2CStringBuffer%2CStringBuilder.md)  
+[Java Garbage Collection](https://github.com/mjseok/SSAFY_CS_Study/blob/main/JAVA/GC/Java%20Garbage%20Collection.md)  
 
 ## Network
 

@@ -53,14 +53,12 @@ ReactiveX는 특정 동시성 또는 비동기성 소스에 치우쳐있지 않�
 
 | pubilc Observable<data> getData(); |
 | --- |
-|
-  - call와 동일한 thread에서 동기적으로 작동하는지
-  - 별개의 thread에서 비동기적으로 작동하는지
-  - 어떤 순서로든 데이터를 caller에게 반환할 수 있는 여러 threads로 작업을 분할하는지
-  - thread pool 대신 actor(또는 여러 actor)를 사용하는지
-  - 비동기 네트워크 접근을 위해 NIO와 함께 event-loop를 사용하는지
-  - 콜백 thread에서 작업 thread를 분리하기 위해 event-loop를 사용하는지
- |
+| call와 동일한 thread에서 동기적으로 작동하는지
+별개의 thread에서 비동기적으로 작동하는지
+어떤 순서로든 데이터를 caller에게 반환할 수 있는 여러 threads로 작업을 분할하는지
+thread pool 대신 actor(또는 여러 actor)를 사용하는지
+비동기 네트워크 접근을 위해 NIO와 함께 event-loop를 사용하는지
+콜백 thread에서 작업 thread를 분리하기 위해 event-loop를 사용하는지 |
 
 **옵저버의 관점에서는 중요하지 않습니다.**
 

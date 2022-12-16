@@ -1,8 +1,8 @@
-#  Java Garbage Collection
+Garbage Collection은 heap 메모리를 관리한다. Java에서는 heap에서 참조하지 못하는 메모리는 JVM이 자동으로 반환해준다.
 
 <br>
 
-### 가비지 컬렉션 과정
+## 가비지 컬렉션 과정
 
  <br>
 
@@ -36,7 +36,8 @@ Java에서는 개발자가 프로그램 코드로 메모리를 명시적으로 �
 
 이 가설을 바탕으로 HotSpot VM에서는 크게 2가지 물리적 공간을 나누었다. 바로 **Young 영역**과 **Old 영역**이다.
 
-![sd](C:\Users\USER\Desktop\GC\sd.PNG)
+![](https://velog.velcdn.com/images/rlooo/post/bce7f214-1d81-4209-83f7-724991072730/image.PNG)
+
 
 
 
@@ -60,7 +61,8 @@ Java에서는 개발자가 프로그램 코드로 메모리를 명시적으로 �
 
   <br>
 
-  ![GC영역및데이터흐름도](C:\Users\USER\Desktop\GC\GC영역및데이터흐름도.png)
+![](https://velog.velcdn.com/images/rlooo/post/face384e-783f-47a7-a105-1e92a5b5ff55/image.png)
+
 
 <br>
 
@@ -75,7 +77,7 @@ Java에서는 개발자가 프로그램 코드로 메모리를 명시적으로 �
 
 <br>
 
-### Young 영역의 구성
+## Young 영역의 구성
 
 <br>
 
@@ -98,7 +100,8 @@ Young 영역은 3개의 영역으로 나뉜다.
 
 다음 그림은 Minor GC를 통해서 Old 영역까지 데이터가 쌓인 것을 나타낸 것이다.
 
-![GC 전과 후의 비교](C:\Users\USER\Desktop\GC\GC 전과 후의 비교.png)
+![](https://velog.velcdn.com/images/rlooo/post/7cd0c669-782c-4f96-b0de-b85ddda3afdb/image.png)
+
 
 <br>
 
@@ -111,7 +114,7 @@ Young 영역은 3개의 영역으로 나뉜다.
 
 <br>
 
-### Old 영역에 대한 GC
+## Old 영역에 대한 GC
 
 Old 영역은 기본적으로 데이터가 가득 차면 GC를 실행한다. 
 
@@ -121,7 +124,7 @@ Old 영역은 기본적으로 데이터가 가득 차면 GC를 실행한다.
 
 <br>
 
-### GC 방식
+## GC 방식
 
 GC 알고리즘은 모두 설정을 통해 Java에 적용할 수 있다. 따라서 개발자는 상황에 따라 필요한 GC 방식을 설정해서 사용할 수 있다.
 
@@ -148,7 +151,8 @@ GC 방식에 따라서 처리 절차가 달라진다. GC 방식은  5가지가 �
 
 Serial GC는 적은 메모리와 CPU 코어 개수가 적을 때 적합한 방식이다.
 
-<br>![serial](C:\Users\USER\Desktop\GC\serial.PNG)
+![](https://velog.velcdn.com/images/rlooo/post/d8a9862b-58e0-445f-96b5-e838e9f13e50/image.PNG)
+
 
 <br>
 
@@ -168,7 +172,8 @@ Parallel GC는 Throughput GC라고도 부른다.
 
 다음은 Serial GC와 Parallel GC의 스레드를 비교한 그림이다.
 
-![Serial GC와 Parallel GC의 차이](C:\Users\USER\Desktop\GC\Serial GC와 Parallel GC의 차이.png)
+![](https://velog.velcdn.com/images/rlooo/post/1d46e96b-a144-4304-a772-92fcb42584b5/image.png)
+
 
 <br>
 
@@ -182,7 +187,8 @@ Parallel GC를 개선한 버전이다. Parallel GC와 비교하여 Old 영역의
 
 <br>
 
-![pogc](C:\Users\USER\Desktop\GC\pogc.PNG)
+![](https://velog.velcdn.com/images/rlooo/post/81364b06-68d0-4dd9-b644-1b45ebe358e1/image.PNG)
+
 
 
 
@@ -218,7 +224,8 @@ Parallel GC를 개선한 버전이다. Parallel GC와 비교하여 Old 영역의
 
 결국 CMS GC는 Java9 버젼부터 deprecated 되었고 결국 Java14에서는 사용이 중지되었다.
 
-![cms](C:\Users\USER\Desktop\GC\cms.PNG)
+![](https://velog.velcdn.com/images/rlooo/post/3d9652a2-6b43-4b50-9135-6ddbe2211fd2/image.PNG)
+
 
 <br>
 
@@ -231,7 +238,8 @@ CMS GC를 대체하기 위해 만들어졌다. Java 9+ 버전의 디폴트 GC로
 기존의 GC 알고리즘에서는 Heap 영역을 물리적으로 고정된 Young / Old 영역으로 나누어 사용하였지만,
 G1 GC는 아예 이러한 개념을 뒤엎는 <u>Region</u>이라는 개념을 새로 도입하여 사용한다. <u>전체 Heap 영역을 Region이라는 영역으로 체스같이 분할하여 상황에 따라 Eden, Survivor, Old 등 역할을 고정이 아닌 동적으로 부여하여 사용한다.</u>
 
-![g1gc2](C:\Users\USER\Desktop\GC\g1gc2.PNG)
+![](https://velog.velcdn.com/images/rlooo/post/4d4c319a-f8f9-4fe8-ba23-12abaee6df2f/image.PNG)
+
 
 
 
@@ -243,7 +251,8 @@ G1 GC는 바둑판의 각 영역에 객체를 할당하고 GC를 실행한다. �
 
 <br>
 
-![G1GC](C:\Users\USER\Desktop\GC\G1GC.png)
+![](https://velog.velcdn.com/images/rlooo/post/1dc094c0-e18e-4988-9321-d59922d994a3/image.png)
+
 
 <br>
 
@@ -264,7 +273,7 @@ ex. Survivor1 영역에 있는 객체가 Eden 영역으로 할당하는 것이 �
 
 <br>
 
-### REFERENCE
+## REFERENCE
 
 - https://d2.naver.com/helloworld/1329
 

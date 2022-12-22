@@ -1,22 +1,23 @@
+_2.1~2.3_
 [공식문서](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#resources)
 
 ## Spring의 `Resource`란?
 
-[문서]
+[문서]  
 `java.net.URL` 클래스는 모든 low-level resource까지 접근 할 수 없다. 이런 한계를 넘어서기 위해서 스프링에서 추가로 구현한 것이며, Resource에 대한 접근을 추상화하기 위한 인터페이스이다.
 
 - `java.net.URL`을 Resource로 감싸서 추상화 한다.
 - `org.springframework.core.io` 패키지에 속해 있다.
 
-  [정리]
-  `java.net.URL`은 class path기준으로 리소스를 읽어올 수 없다.
-  class path?  
-  JVM이 프로그램을 실행할 때 클래스 파일을 찾는 데 기준이 되는 파일 경로(`.class`파일이 포함된 파일의 경로)
-  `java.net.URL` 자바를 이용하여 URL을 다루는 클래스
+[정리]  
+`java.net.URL`은 class path기준으로 리소스를 읽어올 수 없다.  
+class path?  
+ JVM이 프로그램을 실행할 때 클래스 파일을 찾는 데 기준이 되는 파일 경로(`.class`파일이 포함된 파일의 경로)
+`java.net.URL` 자바를 이용하여 URL을 다루는 클래스
 
-  이 외에도
-  `java.net.URL`은 ServletContext를 기준으로 상대 경로를 읽어오는 기능이 없음  
-   URL prefix를 이용해 새로운 핸들러 등록하여 URL접미사를 만들어 사용할 수 있지만 구현이 복잡하고 편의성이 없다.
+이 외에도
+`java.net.URL`은 ServletContext를 기준으로 상대 경로를 읽어오는 기능이 없음  
+ URL prefix를 이용해 새로운 핸들러 등록하여 URL접미사를 만들어 사용할 수 있지만 구현이 복잡하고 편의성이 없다.
 
 ## Resource 구현되어 있는 모습을 살펴보자.
 
@@ -130,5 +131,6 @@ ApplicationContext의 타입에 따라 Resource의 타입이 결정된다.
 
 ## 참고
 
-[[스프링 핵심] Resource 추상화](https://it-mesung.tistory.com/50)
-[스프링 문서](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#resources)
+[[스프링 핵심] Resource 추상화](https://it-mesung.tistory.com/50)  
+[스프링 문서](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#resources)  
+[Resource 추상화](https://yadon079.github.io/2021/spring/resource-abstraction)

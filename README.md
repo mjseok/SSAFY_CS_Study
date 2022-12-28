@@ -24,6 +24,7 @@
 [MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  
 [MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)    
 [Observer 패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)  
+[ReactiveX](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/ObserverPattern/ReactiveX.md)  
 
 
 ## Java
@@ -47,7 +48,7 @@
 [LoadBalancing](https://github.com/mjseok/SSAFY_CS_Study/tree/main/Network/LoadBalancing)  
 [stateless vs stateful](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/stateless%20vs%20stateful.md)  
 [전송계층](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/%EC%A0%84%EC%86%A1%EA%B3%84%EC%B8%B5.md)  
-
+[HTTP의 버전](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/HTTP%EC%9D%98%20%EB%B2%84%EC%A0%84.md)
 
 ## OS
 
@@ -67,12 +68,17 @@
 [쿠키 vs 세션](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/%EC%BF%A0%ED%82%A4%EC%99%80%20%EC%84%B8%EC%85%98%EC%9D%98%20%EC%B0%A8%EC%9D%B4%EC%A0%90.md)  
 [WebServer vs WAS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/WebServer%20vs%20WAS.md)  
 [css애니매이션 vs JS애니매이션](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CSS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20vs%20JS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98.md)  
+[CSR과 SSR](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CSR%EA%B3%BC%20SSR.md)  
+[JWT](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/JWT.md)
 
 
 ## COMMON
 [애자일방법론](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Common/%EC%95%A0%EC%9E%90%EC%9D%BC%20%EB%B0%A9%EB%B2%95%EB%A1%A0.md)
 
-
-
+## SPRING_문서번역
+[Resource](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Spring/Resources.md)  
+[Resource2](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Spring/Resources_2.md)  
+[AOP](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Spring/AOP%20API.md)  
+[validation,Data Binding, Type Conversion](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Spring/3.%20Validation%2C%20Data%20Binding%2C%20and%20Type%20Conversion.md)  
 ### [WIKI 보러가기](https://github.com/mjseok/SSAFY_CS_Study/wiki)
 

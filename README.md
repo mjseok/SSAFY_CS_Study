@@ -24,7 +24,7 @@
 [MVC패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/1-1.MVC%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98.md)  
 [MVC1와 MVC2의 차이](https://github.com/mjseok/SSAFY_CS_Study/issues/45)  
 [MSA](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/MSA.md)    
-[Observer 패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)  
+[Observer 패턴](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/ObserverPattern/%EC%98%B5%EC%A0%80%EB%B2%84%ED%8C%A8%ED%84%B4.md)  
 [ReactiveX](https://github.com/mjseok/SSAFY_CS_Study/blob/main/DesignPattern/ObserverPattern/ReactiveX.md)  
 
 

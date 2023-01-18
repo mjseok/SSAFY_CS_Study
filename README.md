@@ -70,8 +70,8 @@
 [WebServer vs WAS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/WebServer%20vs%20WAS.md)  
 [css애니매이션 vs JS애니매이션](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CSS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98%20vs%20JS%20%EC%95%A0%EB%8B%88%EB%A9%94%EC%9D%B4%EC%85%98.md)  
 [CSR과 SSR](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CSR%EA%B3%BC%20SSR.md)  
-[JWT](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/JWT.md)
-
+[JWT](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/JWT.md)  
+[https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/OAuth.md)  
 
 ## COMMON
 [애자일방법론](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Common/%EC%95%A0%EC%9E%90%EC%9D%BC%20%EB%B0%A9%EB%B2%95%EB%A1%A0.md)

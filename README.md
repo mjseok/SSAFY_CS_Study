@@ -41,7 +41,7 @@
 
 ## Network
 
-[GET,POST차이](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/1-1.%20GET%2C%20POST%20%EC%B0%A8%EC%9D%B4.md)  
+[GET,POST차이](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/%5B%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%5D%20GET%2C%20POST%20%EC%B0%A8%EC%9D%B4.md)  
 [URI 입력 시 일어나는 일](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/URI%20%EC%9E%85%EB%A0%A5%20%EC%8B%9C%20%EC%9D%BC%EC%96%B4%EB%82%98%EB%8A%94%20%EC%9D%BC.md)  
 [DNS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/2.%20DNS.md)  
 [CORS](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Network/3.%20CORS.md)  

@@ -72,6 +72,7 @@
 [CSR과 SSR](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/CSR%EA%B3%BC%20SSR.md)  
 [JWT](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/JWT.md)  
 [OAuth](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/OAuth.md)  
+[브라우저렌더링과정](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%A0%8C%EB%8D%94%EB%A7%81.md)  
 
 ## COMMON
 [애자일방법론](https://github.com/mjseok/SSAFY_CS_Study/blob/main/Common/%EC%95%A0%EC%9E%90%EC%9D%BC%20%EB%B0%A9%EB%B2%95%EB%A1%A0.md)
